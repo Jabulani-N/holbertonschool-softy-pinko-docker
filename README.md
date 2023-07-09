@@ -13,3 +13,12 @@ Ultimately, what you will create in this project is an infrastructure for an app
 ---
 
 [Docker Overview](https://docs.docker.com/get-started/)
+
+
+## Task0
+
+**testing**
+
+`docker build -f ./Dockerfile -t softy-pinko:task0 .;docker run -it --rm --name softy-pinko-task0 softy-pinko:task0` should output one or more lines, ending with 'Hello, World!'
+
+After the first time doing that, just `docker run -it --rm --name softy-pinko-task0 softy-pinko:task0` is fine, as the Hello World is the part you are intereted in seeing
