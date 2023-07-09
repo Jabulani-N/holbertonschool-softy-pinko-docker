@@ -21,6 +21,10 @@ for setup items used for container creation, preface the command with `RUN`
 
 for repeated action items triggered each time the container is accessed(?), preface with `CMD`
 
+* copying is prefaced by `COPY`, so there is more depth than simply `CMD`.
+
+
+
 
 ## Task0
 To create a Docker image, you will need to utilize a Dockerfile. Create a Dockerfile that:
@@ -49,3 +53,4 @@ For this task, start by making a copy of your task0 directory and name it task1.
 
 **testing**
 
+`docker build -f ./Dockerfile -t softy-pinko:task1 .;docker run -p 5252:5252 -it --rm --name softy-pinko-task1 softy-pinko:task1`
