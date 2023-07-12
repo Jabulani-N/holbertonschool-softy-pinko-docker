@@ -23,6 +23,23 @@ Ultimately, what you will create in this project is an infrastructure for an app
 
 ### [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI&t=471s) by Programming with Mosh
 
+Has a client component and server component (the Docker engine)
+
+you can check that you have Docker installed and Docker engine running (you must open the client) via `docker versoin` in the terminal.
+
+Docker can run any application that you "dockerize" with a `Dockerfile`.
+* the Dockerfile is a plaintext file filled with instrcutions for how Docekr will package the app in to an image.
+
+* * the image will come with everything the app needs to run.
+
+After it packages the image, Docker starts a container using that image.
+
+* the container is a special process that has it's own file system.
+
+the image can, optionally, be uploaded to a registry like DockerHub to use it on other machines.
+
+* Behavior will be identical regardless of the machine it is run on.
+
 
 
 ### Independent notes
