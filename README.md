@@ -89,10 +89,13 @@ For this task, start by making a copy of your task0 directory and name it task1.
 
 you can't directly copy the gray box's api.py.
 * you have to fix the indents
+
 Be sure to run the build(?) line that re-copies your api file into the working directory after any changes
 Be sure to read the error messages and associate them with the exact line that is failing.
 
+### Task2
 
+how to set up the server in the softy-pinko... .conf file: https://docs.nginx.com/nginx/admin-guide/web-server/web-server/
 
 
 
