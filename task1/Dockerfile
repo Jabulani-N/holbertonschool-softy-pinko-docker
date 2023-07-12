@@ -6,10 +6,9 @@ RUN apt-get install -y python3-pip
 
 RUN pip3 install -U Flask
 
-COPY \api.py \app\api.py
+WORKDIR \\app
 
-WORKDIR \app
+COPY api.py app\\api.py
 
 EXPOSE 5252
-CMD ["python3", " /app/api.py"]
-COPY source dest
+CMD ["python3", "api.py"]

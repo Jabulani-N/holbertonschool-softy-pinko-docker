@@ -11,8 +11,13 @@ Docker is a platform that allows you to containerize your applications, meaning 
 Ultimately, what you will create in this project is an infrastructure for an application that utilizes a reverse proxy, a load balancer, two application servers, and one front-end server.
 
 ---
+## Resources
+
+### [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI&t=471s) by Programming with Mosh
 
 ### [Docker Overview](https://docs.docker.com/get-started/)
+
+## Notes
 
 It looks like `apt-get` is the name of the installer. it *seems* to work similar to sudo.
 * By that, I mean if you would use `sudo install`, you instead use `apt-get install`.
@@ -23,10 +28,10 @@ for repeated action items triggered each time the container is accessed(?), pref
 
 * copying is prefaced by `COPY`, so there is more depth than simply `CMD`.
 
+## Tasks
 
 
-
-## Task0
+### Task0
 To create a Docker image, you will need to utilize a Dockerfile. Create a Dockerfile that:
 
 * Is based on the latest ubuntu
@@ -40,7 +45,7 @@ To create a Docker image, you will need to utilize a Dockerfile. Create a Docker
 
 After the first time doing that, just `docker run -it --rm --name softy-pinko-task0 softy-pinko:task0` is fine, as the Hello World is the part you are intereted in seeing
 
-## Task1
+### Task1
 
 For this task, start by making a copy of your task0 directory and name it task1. Next, we want to change the Dockerfile to install Python3, pip3, and Flask. You may not have used Flask, yet, but not to worry; for this project, we will give you all of the Flask code you need to get started. We’ll validate that all have been installed correctly by running a Flask server with one endpoint that when called returns “Hello, World!”
 
