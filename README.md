@@ -13,11 +13,19 @@ Ultimately, what you will create in this project is an infrastructure for an app
 ---
 ## Resources
 
-### [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI&t=471s) by Programming with Mosh
+### [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI&t=471s)
+
+* by Programming with Mosh
 
 ### [Docker Overview](https://docs.docker.com/get-started/)
 
 ## Notes
+
+### [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI&t=471s) by Programming with Mosh
+
+
+
+### Independent notes
 
 It looks like `apt-get` is the name of the installer. it *seems* to work similar to sudo.
 * By that, I mean if you would use `sudo install`, you instead use `apt-get install`.
