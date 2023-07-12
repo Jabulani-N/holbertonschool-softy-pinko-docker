@@ -84,3 +84,16 @@ For this task, start by making a copy of your task0 directory and name it task1.
 **testing**
 
 `docker build -f ./Dockerfile -t softy-pinko:task1 .;docker run -p 5252:5252 -it --rm --name softy-pinko-task1 softy-pinko:task1`
+
+#### Potential Pitfalls
+
+you can't directly copy the gray box's api.py.
+* you have to fix the indents
+Be sure to run the build(?) line that re-copies your api file into the working directory after any changes
+Be sure to read the error messages and associate them with the exact line that is failing.
+
+
+
+
+
+
